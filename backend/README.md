@@ -35,7 +35,7 @@ This is the backend API for the SajiloEvents project, built with Node.js, Expres
 
    #### Server Configuration
 
-   PORT=5000
+   PORT=5000 /n
    NODE_ENV=development
 
    #### MongoDB Connection
