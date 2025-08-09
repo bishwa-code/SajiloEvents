@@ -33,27 +33,27 @@ This is the backend API for the SajiloEvents project, built with Node.js, Expres
 3. Set up environment variables:
    Create a .env file in the backend directory with the following variables:
 
-   # Server Configuration
+   #### Server Configuration
 
    PORT=5000
    NODE_ENV=development
 
-   # MongoDB Connection
+   #### MongoDB Connection
 
    MONGO_URI=your_mongodb_connection_string
 
-   # JWT Secret
+   #### JWT Secret
 
    JWT_SECRET=a_very_long_and_secure_secret_key
    JWT_EXPIRE=number_of_days (e.g., 7d)
 
-   # Cloudinary Configuration
+   #### Cloudinary Configuration
 
    CLOUDINARY_CLOUD_NAME=your_cloudinary_cloud_name
    CLOUDINARY_API_KEY=your_cloudinary_api_key
    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
-   # Nodemailer SMTP Configuration
+   #### Nodemailer SMTP Configuration
 
    SMTP_HOST=smtp.gmail.com
    SMTP_PORT=587
@@ -61,7 +61,7 @@ This is the backend API for the SajiloEvents project, built with Node.js, Expres
    SMTP_USER=YOUR_EMAIL_ADDRESS@gmail.com
    SMTP_PASS=YOUR_APP_PASSWORD
 
-   # Brevo SMTP Configuration
+   #### Brevo SMTP Configuration
 
    SMTP_HOST=smtp-relay.brevo.com
    SMTP_PORT=587
