@@ -53,13 +53,6 @@ This is the backend API for the SajiloEvents project, built with Node.js, Expres
    CLOUDINARY_API_KEY=your_cloudinary_api_key
    CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 
-   #### Nodemailer SMTP Configuration
-
-   SMTP_HOST=smtp.gmail.com
-   SMTP_PORT=587
-   SMTP_SECURE=false
-   SMTP_USER=YOUR_EMAIL_ADDRESS@gmail.com
-   SMTP_PASS=YOUR_APP_PASSWORD
 
    #### Brevo SMTP Configuration
 
@@ -69,7 +62,7 @@ This is the backend API for the SajiloEvents project, built with Node.js, Expres
    SMTP_USER=your_verified_email@example.com
    SMTP_PASS=your_generated_smtp_key
 
-4. Run the server:
+5. Run the server:
    npm run dev
 
 The API will be running on http://localhost:5000.
